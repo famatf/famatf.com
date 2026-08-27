@@ -1,0 +1,5 @@
+sphinx
+sphinx-readable-theme==1.3.0
+myst-parser
+sphinx-autobuild
+sphinxcontrib-katex==0.9.11
