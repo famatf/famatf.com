@@ -1,6 +1,12 @@
 ---
-layout: page
 title: 晶格热容的量子理论
+date: 2026-05-05
+categories:
+  - notes
+  - physics
+tags:
+  - statistical-mechanics
+  - solid-state
 permalink: /notes/heat-capacity.html
 math: true
 ---

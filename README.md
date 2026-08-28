@@ -9,7 +9,6 @@
 
 - `_posts/notes/`：有发布日期的学习笔记与计算文章。
 - `_posts/writing/`：以后新增的随笔、评论及其他写作。
-- `notes/`：不显示发布日期的常用笔记或备忘。
 - `assets/images/gallery/`：Gallery 使用的图片。
 - `about.md`、`gallery.md`：独立页面。
 
