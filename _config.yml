@@ -11,9 +11,9 @@ permalink: /:categories/:slug.html
 
 theme_config:
   appearance: auto
-  back_home_text: ".."
+  back_home_text: "返回上一级"
   date_format: "%Y-%m-%d"
-  show_description: true
+  show_description: false
   lowercase_titles: false
 
 markdown: kramdown

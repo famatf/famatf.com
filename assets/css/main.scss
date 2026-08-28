@@ -12,3 +12,14 @@
 .empty-note {
   color: #555;
 }
+
+hr {
+  border: 0;
+  border-top: 1px solid currentColor;
+  margin: 2rem 0;
+}
+
+hr::before,
+hr::after {
+  content: none;
+}
