@@ -1,0 +1,14 @@
+---
+---
+
+@use "no-style-please";
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0;
+}
+
+.empty-note {
+  color: #555;
+}

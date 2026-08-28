@@ -1,6 +1,6 @@
-docs/build/
-__pycache__/
-*.pyc
-.venv/
-.ipynb_checkpoints/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+_site/
+vendor/bundle/
 .DS_Store

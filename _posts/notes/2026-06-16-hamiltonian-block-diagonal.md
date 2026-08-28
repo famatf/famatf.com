@@ -1,4 +1,15 @@
-# 哈密顿量为什么是分块对角的
+---
+title: 哈密顿量为什么是分块对角的
+date: 2026-06-16
+categories:
+  - notes
+  - physics
+tags:
+  - symmetry
+  - group-theory
+permalink: /notes/hamil.html
+math: true
+---
 
 设体系哈密顿量为 $H$，存在一组幺正对称操作 $U_R$，其中 $R\in G$。如果 $U_R$ 保持哈密顿量不变，则有
 
@@ -6,8 +17,7 @@ $$
 U_R^\dagger H U_R=H.
 $$
 
-因为 $U_R$ 是幺正算符，$
-U_R^\dagger=U_R^{-1}$ ，所以有：
+因为 $U_R$ 是幺正算符，$U_R^\dagger=U_R^{-1}$，所以有：
 
 $$
 H U_R=U_R H.
