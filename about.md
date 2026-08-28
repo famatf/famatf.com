@@ -4,4 +4,8 @@ title: About
 permalink: /about.html
 ---
 
-这里收录学习笔记、计算备忘与其他写作。
+This website is a backup for my WeChat account, **NichtFliegen**.
+
+Most of the content here can also be found there. For more information, please check my WeChat account.
+
+The only exception is some photos in **Gallery**.
