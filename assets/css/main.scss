@@ -3,10 +3,22 @@
 
 @use "no-style-please";
 
+.kdmath,
 .katex-display {
+  display: block;
+  max-width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
   padding: 0.25rem 0;
+}
+
+.kdmath {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.kdmath .katex-display {
+  margin: 0;
 }
 
 .empty-note {
