@@ -1,7 +1,7 @@
 {%- assign back_url = "/" -%}
 {%- if page.categories contains "notes" -%}
   {%- assign back_url = "/notes.html" -%}
-{%- elsif page.categories contains "writing" -%}
-  {%- assign back_url = "/writing.html" -%}
+{%- elsif page.categories contains "writings" -%}
+  {%- assign back_url = "/writings.html" -%}
 {%- endif -%}
 <a href="{{ back_url | relative_url }}">{{ site.theme_config.back_home_text }}</a>

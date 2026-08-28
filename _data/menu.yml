@@ -10,8 +10,8 @@ entries:
     entries:
       - title: Notes
         url: notes.html
-      - title: Writing
-        url: writing.html
+      - title: Writings
+        url: writings.html
 
   - title: Gallery
     url: gallery.html
