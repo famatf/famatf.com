@@ -1,4 +1,8 @@
-# 备忘录
+---
+layout: page
+title: 计算与网站备忘录
+permalink: /other/test.html
+---
 
 ## 网站部署相关命令
 

@@ -1,0 +1,51 @@
+title: fama website
+author: famatf
+url: "https://famatf.com"
+baseurl: ""
+description: 学习笔记、计算备忘与其他写作。
+lang: zh-CN
+timezone: Asia/Shanghai
+
+favicon: "/favicon.ico"
+permalink: /:categories/:slug.html
+
+theme_config:
+  appearance: auto
+  back_home_text: ".."
+  date_format: "%Y-%m-%d"
+  show_description: true
+  lowercase_titles: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: null
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      lang: zh-CN
+  - scope:
+      path: ""
+      type: pages
+    values:
+      lang: zh-CN
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE-no-style-please.txt
+  - README.md
+  - scripts
+  - vendor

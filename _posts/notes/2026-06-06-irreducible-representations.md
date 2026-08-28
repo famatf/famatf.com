@@ -1,4 +1,15 @@
-# 群的不可约表示
+---
+title: 群的不可约表示
+date: 2026-06-06
+categories:
+  - notes
+  - physics
+tags:
+  - symmetry
+  - group-theory
+permalink: /notes/irrep.html
+math: true
+---
 
 ## 总结
 
@@ -75,7 +86,7 @@ $$
 
 ### Schur's Lemma II
 
-设 $D^i(G)=\{D^i(R)\} 和 D^j(G)=\{D^j(R)\}$ 是群 $G={R}$ 的两个不等价不可约表示，为数分别为 $d_i$ 和 $d_j$ ，如果 $d_i \times d_j$ 矩阵 $X$ 满足 $D^i(R)X=XD^j(R), \forall R\in G$ ，那么 $X=0$。
+设 $D^i(G)=\{D^i(R)\}$ 和 $D^j(G)=\{D^j(R)\}$ 是群 $G=\{R\}$ 的两个不等价不可约表示，维数分别为 $d_i$ 和 $d_j$。如果 $d_i \times d_j$ 矩阵 $X$ 满足 $D^i(R)X=XD^j(R), \forall R\in G$，那么 $X=0$。
 
 也就是说，如果两个变换是等价的，那么可以通过相似变换 $D'(R)=X^{-1}D(R)X$ 联系在一起，现在既然不是等价的，也不是可约的，就不能这么做，维数也不满足矩阵的乘法条件。因此，就把 $X$ 乘到左边，因此只能有 $X=0$ 。
 

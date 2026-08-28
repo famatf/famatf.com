@@ -1,4 +1,9 @@
-# 晶格热容的量子理论
+---
+layout: page
+title: 晶格热容的量子理论
+permalink: /notes/heat-capacity.html
+math: true
+---
 
 
 当 $T \to 0$ 时，晶格热容满足：
@@ -18,13 +23,13 @@ $$
 晶格振动可以量子化为一组独立的谐振子。第 $i$ 个振动模的能量为：
 
 $$
-E_{n_i} = \left(n_i + \frac{1}{2}\right)\hbar\omega_i，n_i = 0,1,2,\cdots
+E_{n_i} = \left(n_i + \frac{1}{2}\right)\hbar\omega_i,\qquad n_i = 0,1,2,\cdots
 $$
 
 配分函数：
 
 $$
-Z_i = \sum_{n_i=0}^{\infty} e^{-\beta n_i \hbar \omega_i}，\beta = \frac{1}{k_B T}
+Z_i = \sum_{n_i=0}^{\infty} e^{-\beta n_i \hbar \omega_i},\qquad \beta = \frac{1}{k_B T}
 $$
 
 所以晶格振动的平均能量为：
@@ -226,7 +231,7 @@ $\mathbf{q}$ 不是任意取的，允许取的数目是 $\frac{V}{(2\pi)^3}\math
 $$
 \Delta n = g(\omega) \Delta \omega 
 \longrightarrow
-\mathrm{d}n = \underbrace{g(\omega)}_{\text{{密度}}} \underbrace{\mathrm{d}\omega}_{\text{区间}}
+\mathrm{d}n = \underbrace{g(\omega)}_{\text{密度}} \underbrace{\mathrm{d}\omega}_{\text{区间}}
 $$
 
 
@@ -332,4 +337,3 @@ g(\omega)
 $$
 
 其中 $dS$ 是 $q$ 空间中等频面上的面积元。
-

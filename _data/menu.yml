@@ -1,0 +1,23 @@
+entries:
+  - title: Recent
+    post_list:
+      limit: 8
+      show_more: true
+      show_more_text: More...
+      show_more_url: archive.html
+
+  - title: Sections
+    entries:
+      - title: Notes
+        url: notes.html
+      - title: Writing
+        url: writing.html
+
+  - title: Gallery
+    url: gallery.html
+
+  - title: About
+    url: about.html
+
+  - title: RSS
+    url: feed.xml
