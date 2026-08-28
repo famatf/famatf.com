@@ -433,8 +433,7 @@ $$
 对牛顿定律，左右同除以 $\tau$
 
 $$
--
-\frac m\tau
+-\frac m\tau
 \ddot x(t)
 =
 \frac1\tau
