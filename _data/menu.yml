@@ -6,7 +6,7 @@ entries:
       show_more_text: More...
       show_more_url: archive.html
 
-  - title: Sections
+  - title: Archive
     entries:
       - title: Notes
         url: notes.html
