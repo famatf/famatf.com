@@ -72,34 +72,34 @@ $$
 \end{aligned}
 $$
 
-定义粒子数算符 $\hat n=\hat a^\dagger\hat a$，则 $\hat H=\hbar\omega(\hat n+1/2)$，设 $\hat n|n\rangle=n|n\rangle$。由对易关系可得
+定义粒子数算符 $\hat n=\hat a^\dagger\hat a$，则 $\hat H=\hbar\omega(\hat n+1/2)$，设 $\hat n\lvert n\rangle=n\lvert n\rangle$。由对易关系可得
 
 $$
 \begin{aligned}
-\hat n\hat a^\dagger|n\rangle
-&=\hat a^\dagger(\hat n+1)|n\rangle
-=(n+1)\hat a^\dagger|n\rangle,\\
-\hat n\hat a|n\rangle
-&=\hat a(\hat n-1)|n\rangle
-=(n-1)\hat a|n\rangle.
+\hat n\hat a^\dagger\lvert n\rangle
+&=\hat a^\dagger(\hat n+1)\lvert n\rangle
+=(n+1)\hat a^\dagger\lvert n\rangle,\\
+\hat n\hat a\lvert n\rangle
+&=\hat a(\hat n-1)\lvert n\rangle
+=(n-1)\hat a\lvert n\rangle.
 \end{aligned}
 $$
 
-因此，$\hat a^\dagger|n\rangle$ 属于本征值 $n+1$，而 $\hat a|n\rangle$ 属于本征值 $n-1$。
+因此，$\hat a^\dagger\lvert n\rangle$ 属于本征值 $n+1$，而 $\hat a\lvert n\rangle$ 属于本征值 $n-1$。
 
-归一化系数由模长决定：$\|\hat a^\dagger|n\rangle\|^2=n+1$，$\|\hat a|n\rangle\|^2=n$。所以
+归一化系数由模长决定：$\lVert\hat a^\dagger\lvert n\rangle\rVert^2=n+1$，$\lVert\hat a\lvert n\rangle\rVert^2=n$。所以
 
 $$
 \begin{aligned}
-\hat a^\dagger|n\rangle&=\sqrt{n+1}|n+1\rangle,\\
-\hat a|n\rangle&=\sqrt n|n-1\rangle.
+\hat a^\dagger\lvert n\rangle&=\sqrt{n+1}\lvert n+1\rangle,\\
+\hat a\lvert n\rangle&=\sqrt n\lvert n-1\rangle.
 \end{aligned}
 $$
 
-因为 $\langle n|\hat n|n\rangle=\|\hat a|n\rangle\|^2\geq0$，本征值不能为负。最低态记为 $|0\rangle$，并满足 $\hat a|0\rangle=0$。所有激发态都可以从基态产生：
+因为 $\langle n\rvert\hat n\lvert n\rangle=\lVert\hat a\lvert n\rangle\rVert^2\geq0$，本征值不能为负。最低态记为 $\lvert 0\rangle$，并满足 $\hat a\lvert 0\rangle=0$。所有激发态都可以从基态产生：
 
 $$
-|n\rangle=\frac{(\hat a^\dagger)^n}{\sqrt{n!}}|0\rangle.
+\lvert n\rangle=\frac{(\hat a^\dagger)^n}{\sqrt{n!}}\lvert 0\rangle.
 $$
 
 考虑含 $N$ 个相同质量点的一维单原子链模型，相邻质量点由劲度系数为 $K$ 的弹簧连接，并取周期性边界条件 $x_{j+N}=x_j$。哈密顿量为
@@ -146,7 +146,7 @@ $$
 $$
 \begin{aligned}
 \omega_k^2&=\frac{4K}{m}\sin^2\left(\frac{ka}{2}\right),\\
-\omega_k&=2\sqrt{\frac Km}\left|\sin\left(\frac{ka}{2}\right)\right|.
+\omega_k&=2\sqrt{\frac Km}\left\lvert\sin\left(\frac{ka}{2}\right)\right\rvert.
 \end{aligned}
 $$
 
@@ -166,27 +166,27 @@ $$
 
 ---
 
-在通常的单粒子问题中，先固定粒子数，再写波函数 $\Psi(x_1,\ldots,x_N)$。占据数表象则先选一组单粒子态 $|i\rangle$，然后只记录每个态中有多少粒子。所有允许粒子数的空间合在一起构成 Fock 空间：
+在通常的单粒子问题中，先固定粒子数，再写波函数 $\Psi(x_1,\ldots,x_N)$。占据数表象则先选一组单粒子态 $\lvert i\rangle$，然后只记录每个态中有多少粒子。所有允许粒子数的空间合在一起构成 Fock 空间：
 
 $$
 \mathcal F=\mathcal H_0\oplus\mathcal H_1\oplus\mathcal H_2\oplus\cdots.
 $$
 
-当体系有许多独立模式时，用 $|n_1,n_2,\ldots\rangle$ 表示各模式的占据数。对玻色子，$n_k=0,1,2,\ldots$，且
+当体系有许多独立模式时，用 $\lvert n_1,n_2,\ldots\rangle$ 表示各模式的占据数。对玻色子，$n_k=0,1,2,\ldots$，且
 
 $$
-|n_1,n_2,\ldots\rangle
-=\prod_k\frac{(\hat a_k^\dagger)^{n_k}}{\sqrt{n_k!}}|0\rangle.
+\lvert n_1,n_2,\ldots\rangle
+=\prod_k\frac{(\hat a_k^\dagger)^{n_k}}{\sqrt{n_k!}}\lvert 0\rangle.
 $$
 
 产生、湮灭算符只改变对应模式的占据数：
 
 $$
 \begin{aligned}
-\hat a_k^\dagger|\ldots,n_k,\ldots\rangle
-&=\sqrt{n_k+1}|\ldots,n_k+1,\ldots\rangle,\\
-\hat a_k|\ldots,n_k,\ldots\rangle
-&=\sqrt{n_k}|\ldots,n_k-1,\ldots\rangle.
+\hat a_k^\dagger\lvert\ldots,n_k,\ldots\rangle
+&=\sqrt{n_k+1}\lvert\ldots,n_k+1,\ldots\rangle,\\
+\hat a_k\lvert\ldots,n_k,\ldots\rangle
+&=\sqrt{n_k}\lvert\ldots,n_k-1,\ldots\rangle.
 \end{aligned}
 $$
 
@@ -196,10 +196,10 @@ $$
 
 $$
 \begin{aligned}
-\hat n_k|n_1,n_2,\ldots\rangle
-&=n_k|n_1,n_2,\ldots\rangle,\\
-\hat N|n_1,n_2,\ldots\rangle
-&=\left(\sum_kn_k\right)|n_1,n_2,\ldots\rangle.
+\hat n_k\lvert n_1,n_2,\ldots\rangle
+&=n_k\lvert n_1,n_2,\ldots\rangle,\\
+\hat N\lvert n_1,n_2,\ldots\rangle
+&=\left(\sum_kn_k\right)\lvert n_1,n_2,\ldots\rangle.
 \end{aligned}
 $$
 
@@ -209,9 +209,9 @@ $$
 \hat H=\sum_pE_p\hat a_p^\dagger\hat a_p,
 $$
 
-并有 $\hat H|n_{p_1},n_{p_2},\ldots\rangle=(\sum_p n_pE_p)|n_{p_1},n_{p_2},\ldots\rangle$。
+并有 $\hat H\lvert n_{p_1},n_{p_2},\ldots\rangle=(\sum_p n_pE_p)\lvert n_{p_1},n_{p_2},\ldots\rangle$。
 
-考虑两个全同粒子分别占据两个不同的单粒子态的情形。在两个不同单粒子态 $p_1,p_2$ 中各放入一个粒子，可以写成 $\hat a_{p_1}^\dagger\hat a_{p_2}^\dagger|0\rangle$。在三维空间中，连续交换两个全同粒子两次等价于不交换，因此交换本征值满足 $\lambda^2=1$，即 $\lambda=1$ 或 $\lambda=-1$。
+考虑两个全同粒子分别占据两个不同的单粒子态的情形。在两个不同单粒子态 $p_1,p_2$ 中各放入一个粒子，可以写成 $\hat a_{p_1}^\dagger\hat a_{p_2}^\dagger\lvert 0\rangle$。在三维空间中，连续交换两个全同粒子两次等价于不交换，因此交换本征值满足 $\lambda^2=1$，即 $\lambda=1$ 或 $\lambda=-1$。
 
 玻色子在交换下对称，$\lambda=1$。满足
 
@@ -257,14 +257,14 @@ $$
 
 $$
 \begin{aligned}
-\langle\boldsymbol x|\boldsymbol p\rangle
+\langle\boldsymbol x\rvert\boldsymbol p\rangle
 &=\frac1{\sqrt V}e^{i\boldsymbol p\cdot\boldsymbol x/\hbar},\\
-\langle\boldsymbol p|\boldsymbol x\rangle
+\langle\boldsymbol p\rvert\boldsymbol x\rangle
 &=\frac1{\sqrt V}e^{-i\boldsymbol p\cdot\boldsymbol x/\hbar}.
 \end{aligned}
 $$
 
-对任意态 $|\alpha\rangle$，有
+对任意态 $\lvert\alpha\rangle$，有
 
 $$
 \begin{aligned}
@@ -295,7 +295,7 @@ $$
 令体积趋于无穷，可选
 
 $$
-\langle\boldsymbol x|\boldsymbol p\rangle
+\langle\boldsymbol x\rvert\boldsymbol p\rangle
 =\frac1{(2\pi\hbar)^{3/2}}
 e^{i\boldsymbol p\cdot\boldsymbol x/\hbar}.
 $$
@@ -317,13 +317,13 @@ e^{i\boldsymbol p\cdot\boldsymbol x/\hbar}
 \end{aligned}
 $$
 
-动量本征态可写为 $|\boldsymbol p\rangle=\hat a_{\boldsymbol p}^\dagger|0\rangle$。利用动量完备关系，位置本征态为
+动量本征态可写为 $\lvert\boldsymbol p\rangle=\hat a_{\boldsymbol p}^\dagger\lvert 0\rangle$。利用动量完备关系，位置本征态为
 
 $$
-|\boldsymbol x\rangle
+\lvert\boldsymbol x\rangle
 =\frac1{\sqrt V}\sum_{\boldsymbol p}
 e^{-i\boldsymbol p\cdot\boldsymbol x/\hbar}
-|\boldsymbol p\rangle.
+\lvert\boldsymbol p\rangle.
 $$
 
 定义箱归一化的场算符
@@ -341,7 +341,7 @@ e^{-i\boldsymbol p\cdot\boldsymbol x/\hbar}
 \end{aligned}
 $$
 
-于是 $\hat\psi^\dagger(\boldsymbol x)|0\rangle=|\boldsymbol x\rangle$。因此，$\hat a_{\boldsymbol p}^\dagger$ 在动量态中产生一个粒子，而 $\hat\psi^\dagger(\boldsymbol x)$ 在位置态中产生一个粒子；二者互为傅里叶变换。玻色场满足 $[\hat\psi(\boldsymbol x),\hat\psi^\dagger(\boldsymbol y)]=\delta_V^{(3)}(\boldsymbol x-\boldsymbol y)$；取无限体积极限后，右端变为 $\delta^{(3)}(\boldsymbol x-\boldsymbol y)$。费米场满足相应的反对易关系。场算符不是波函数。$\psi_\alpha(\boldsymbol x)=\langle\boldsymbol x|\alpha\rangle$ 是复数函数，而 $\hat\psi(\boldsymbol x)$ 是作用在整个 Fock 空间上的算符，会使粒子数减少 $1$。
+于是 $\hat\psi^\dagger(\boldsymbol x)\lvert 0\rangle=\lvert\boldsymbol x\rangle$。因此，$\hat a_{\boldsymbol p}^\dagger$ 在动量态中产生一个粒子，而 $\hat\psi^\dagger(\boldsymbol x)$ 在位置态中产生一个粒子；二者互为傅里叶变换。玻色场满足 $[\hat\psi(\boldsymbol x),\hat\psi^\dagger(\boldsymbol y)]=\delta_V^{(3)}(\boldsymbol x-\boldsymbol y)$；取无限体积极限后，右端变为 $\delta^{(3)}(\boldsymbol x-\boldsymbol y)$。费米场满足相应的反对易关系。场算符不是波函数。$\psi_\alpha(\boldsymbol x)=\langle\boldsymbol x\rvert\alpha\rangle$ 是复数函数，而 $\hat\psi(\boldsymbol x)$ 是作用在整个 Fock 空间上的算符，会使粒子数减少 $1$。
 
 总粒子数算符可以在动量和位置表象中分别写成
 
