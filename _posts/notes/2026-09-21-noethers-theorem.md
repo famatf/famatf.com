@@ -1,4 +1,16 @@
-# Noether's Theorem and Spacetime Symmetries
+---
+title: Noether's Theorem and Spacetime Symmetries
+date: 2026-09-21
+categories:
+  - notes
+  - physics
+tags:
+  - quantum-field-theory
+  - quantum-mechanics
+permalink: /notes/noethers-theorem.html
+math: true
+---
+
 
 This note is basically based on David Tong's lecture notes and Schwartz's textbook. I use $g_{\mu\nu}=\operatorname{diag}(1,-1,-1,-1)$ and $c=\hbar=1$. Repeated indices are summed. All transformations are kept to first order, and $\delta\phi_a$ denotes the variation at fixed $x$.
 
