@@ -19,5 +19,8 @@ entries:
   - title: About
     url: about.html
 
+    - title: GitHub
+    url: https://github.com/famatf
+
   - title: RSS
     url: feed.xml
