@@ -1,13 +1,13 @@
 ---
 layout: home
-title: fama website
+title: F is for Fake
 ---
 
-Welcome to my website! You can also find me on .
+Welcome to my website!
 
-本网站是我的公众号`（微信搜索“不能奋飞”）`的内容存档处。无其他用途。
+本站是我的公众号`（微信搜索“不能奋飞”）`的内容存档处。无其他用途。
 
-本网站使用`https://github.com/riggraz/no-style-please`构建。
+本站使用[no-style-please](https://github.com/riggraz/no-style-please)主题构建。
 
 ---
 
