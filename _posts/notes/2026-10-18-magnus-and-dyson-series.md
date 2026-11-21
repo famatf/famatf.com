@@ -14,9 +14,9 @@ math: true
 
 本文采用自然单位制，$\hbar =1$。本文仅导出这两个级数，未对其物理意义作过多说明。
 
-回顾薛定谔绘景：态动，算符不动：$|\psi(t)\rangle_S =e^{-iH(t-t_0)}|\psi(t_0)\rangle_S$，$e^{-iH(t-t_0)}$ 就是时间演化算符。
+回顾薛定谔绘景：态动，算符不动：$\lvert\psi(t)\rangle_S =e^{-iH(t-t_0)}\lvert\psi(t_0)\rangle_S$，$e^{-iH(t-t_0)}$ 就是时间演化算符。
 
-海森堡绘景：算符动，态不动：$O_H(t) =e^{iH(t-t_0)}O_Se^{-iH(t-t_0)}$，态的变化是$|\psi\rangle_H=e^{iH(t-t_0)}|\psi(t)\rangle_S=|\psi(t_0)\rangle_S$（转回去）。
+海森堡绘景：算符动，态不动：$O_H(t) =e^{iH(t-t_0)}O_Se^{-iH(t-t_0)}$，态的变化是$\lvert\psi\rangle_H=e^{iH(t-t_0)}\lvert\psi(t)\rangle_S=\lvert\psi(t_0)\rangle_S$（转回去）。
 
 相互作用绘景，就是把哈密顿量 $H$ 写成以下形式：
 $$
@@ -24,27 +24,27 @@ H = H_0 + H_{int}
 $$
 其中 $H_0$ 不含时，$H_{int}$ 为相互作用项。仿照海森堡绘景，相互作用绘景和薛定谔绘景的关系是：
 $$
-|\psi(t)\rangle_I=e^{iH_0t}|\psi(t)\rangle_S
+\lvert\psi(t)\rangle_I=e^{iH_0t}\lvert\psi(t)\rangle_S
 $$
 我们这么做的原因是 $H_0$ 不含时。现在我们关心的是态的演化，相互作用绘景的时间演化是如何的？我们把相互作用绘景的时间演化算符记作$U(t,t_0)$ ，下面来求它。
 
 首先，从$t_0$演化到$t$，有：
 $$
-|\psi(t)\rangle_I = U(t, t_0)|\psi(t_0)\rangle
+\lvert\psi(t)\rangle_I = U(t, t_0)\lvert\psi(t_0)\rangle
 $$
 把相互作用的ket统一换成薛定谔绘景的：
 $$
-e^{iH_0t}|\psi(t)\rangle_S
+e^{iH_0t}\lvert\psi(t)\rangle_S
 =U(t,t_0)
-e^{iH_0t_0}|\psi(t_0)\rangle_S
+e^{iH_0t_0}\lvert\psi(t_0)\rangle_S
 $$
 左乘$e^{-iH_0t}$：
 $$
-|\psi(t)\rangle_S=
+\lvert\psi(t)\rangle_S=
 e^{-iH_0t}U(t,t_0)e^{iH_0t_0}
-|\psi(t_0)\rangle_S
+\lvert\psi(t_0)\rangle_S
 $$
-代入$|\psi(t)\rangle_S =U_S(t,t_0)|\psi(t_0)\rangle_S$，消掉$|\psi(t_0)\rangle_S$，得到：
+代入$\lvert\psi(t)\rangle_S =U_S(t,t_0)\lvert\psi(t_0)\rangle_S$，消掉$\lvert\psi(t_0)\rangle_S$，得到：
 $$
 U_S(t,t_0)=
 e^{-iH_0t}U(t,t_0)e^{iH_0t_0}
